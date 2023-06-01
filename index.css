@@ -1,0 +1,62 @@
+.paper{
+    width: 124px;
+    height: 124px;
+    padding: 30px;
+}
+
+.rock{
+    width: 124px;
+    height: 124px;
+    padding: 30px;
+}
+
+.scissors{
+    width: 124px;
+    height: 124px;
+    padding: 30px;
+}
+
+#playerChoices{
+    display: flex;
+    flex: 1;
+
+    flex-direction: column;
+}
+
+h1{
+    position: absolute;
+    left: 37%;
+
+    font-family: sans-serif;
+}
+
+#playerChoice{
+    position: absolute;
+    top: 575px;
+    font-family: sans-serif;
+    font-size: xx-large;
+}
+
+body{
+    background-color: rgb(104, 118, 184);
+}
+
+#computerChoices{
+    display: flex;
+    flex: 1;
+
+    flex-direction: column;
+
+    position: absolute;
+    left: 85%;
+    top: 10px;
+}
+
+#computerChoice{
+    position: absolute;
+    top: 575px;
+    left: 68%;
+    width: max-content;
+    font-family: sans-serif;
+    font-size: xx-large;
+}
